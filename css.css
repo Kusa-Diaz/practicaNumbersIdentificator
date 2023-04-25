@@ -1,0 +1,103 @@
+canvas {
+    border: 8px solid #001d3d;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1 1 auto;
+    flex-wrap: nowrap;
+  }
+
+  .canvasContainer{
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #TitleHeader {
+    display: block;
+    text-align: center;
+    margin: 10 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+
+  #navbar{
+      background-color: #001d3d;
+      border: 10px solid #001d3d;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .btnGroup {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  #btnLimpiar {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border: 2px solid #ffd60a;
+  }
+  #btnLimpiar:hover {
+    background-color: #ffc300;
+    color: white;
+  }
+
+  #btnAnalizar {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border: 2px solid #003566;
+  }
+
+  #btnAnalizar:hover {
+    background-color: #001d3d;
+    color: white;
+  }
+
+  #resultadoConv {
+    font-weight:  bold;
+    font-size:  6rem;
+    text-align: center;
+  }
+  #resultado {
+    font-weight:  bold;
+    font-size:  6rem;
+    text-align: center;
+  }
+
+  #subtitle{
+    display: block;
+    text-align: center;
+    margin: 10 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  }
+
+  #resultado{
+    display: block;
+    text-align: center;
+    margin: 10 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #ffd60a;
+  }
+
+  #resultadoConv{
+    display: block;
+    text-align: center;
+    margin: 10 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #003566;
+  }
